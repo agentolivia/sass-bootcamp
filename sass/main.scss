@@ -227,12 +227,14 @@ nav {
 /* ====================
     WIDE: CSS3 Effects
    ==================== */
-
+  @mixin shadow($h-shadow, $v-shadow, $blur, $shadow-color, $shadow-type: box) {
+    -webkit-#{$shadow-type}-shadow: $h-shadow $v-shadow $blur $shadow-color;
+    -moz-#{$shadow-type}-shadow: $h-shadow $v-shadow $blur $shadow-color;
+    #{$shadow-type}-shadow: $h-shadow $v-shadow $blur $shadow-color;
+  }
     .header-container,
     .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
+      @include shadow(0, 5px, 10px, #aaa, box);
     }
 
 /* ============

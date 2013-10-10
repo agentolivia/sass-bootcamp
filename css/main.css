@@ -153,9 +153,9 @@ nav a {
      ==================== */
   .header-container,
   .main aside {
-    -webkit-box-shadow: 0 5px 10px #aaa;
-    -moz-box-shadow: 0 5px 10px #aaa;
-    box-shadow: 0 5px 10px #aaa; }
+    -webkit-box-shadow: 0 5px 10px #aaaaaa;
+    -moz-box-shadow: 0 5px 10px #aaaaaa;
+    box-shadow: 0 5px 10px #aaaaaa; }
 
   /* ============
       WIDE: Menu
