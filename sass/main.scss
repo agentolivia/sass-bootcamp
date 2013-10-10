@@ -107,13 +107,12 @@ body {
 /* ==============
     MOBILE: Menu
    ============== */
-
-nav ul {
+nav {
+  ul {
     margin: 0;
     padding: 0;
-}
-
-nav a {
+  }
+  a {
     display: block;
     margin-bottom: 10px;
     padding: 15px 0;
@@ -124,15 +123,14 @@ nav a {
 
     color: $white;
     background: $dark-orange;
-}
-
-nav a:hover,
-nav a:visited {
-    color: $white;
-}
-
-nav a:hover {
-    text-decoration: underline;
+    &:hover,
+    &:visited {
+      color: $white;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 /* ==============
