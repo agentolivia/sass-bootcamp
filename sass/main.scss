@@ -1,16 +1,5 @@
-// Variables
-
-$orange: #f16529;
-$dark-orange: darken($orange, 8%);
-$light-blue: #b3d4fc;
-$selection: $light-blue;
-$dark-gray: #222222;
-$light-gray: #cccccc;
-$black: #000000;
-$white: #ffffff;
-$default-text: $dark-gray;
-
-$max-width: 1140px;
+@import "variables";
+@import "mixins";
 
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
@@ -227,11 +216,7 @@ nav {
 /* ====================
     WIDE: CSS3 Effects
    ==================== */
-  @mixin shadow($h-shadow, $v-shadow, $blur, $shadow-color, $shadow-type: box) {
-    -webkit-#{$shadow-type}-shadow: $h-shadow $v-shadow $blur $shadow-color;
-    -moz-#{$shadow-type}-shadow: $h-shadow $v-shadow $blur $shadow-color;
-    #{$shadow-type}-shadow: $h-shadow $v-shadow $blur $shadow-color;
-  }
+
     .header-container,
     .main aside {
       @include shadow(0, 5px, 10px, #aaa, box);
