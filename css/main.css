@@ -59,11 +59,11 @@ body {
     ALL: Orange Theme
    =================== */
 .header-container {
-  border-bottom: 20px solid #e44d26; }
+  border-bottom: 20px solid #e24e0f; }
 
 .footer-container,
 .main aside {
-  border-top: 20px solid #e44d26; }
+  border-top: 20px solid #e24e0f; }
 
 .header-container,
 .footer-container,
@@ -87,7 +87,7 @@ nav a {
   text-decoration: none;
   font-weight: bold;
   color: white;
-  background: #e44d26; }
+  background: #e24e0f; }
   nav a:hover, nav a:visited {
     color: white; }
   nav a:hover {

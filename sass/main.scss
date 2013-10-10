@@ -1,7 +1,7 @@
 // Variables
 
 $orange: #f16529;
-$dark-orange: #e44d26;
+$dark-orange: darken($orange, 8%);
 $light-blue: #b3d4fc;
 $selection: $light-blue;
 $dark-gray: #222222;
