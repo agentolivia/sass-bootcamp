@@ -10,6 +10,8 @@ $black: #000000;
 $white: #ffffff;
 $default-text: $dark-gray;
 
+$max-width: 1140px;
+
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
    ========================================================================== */
@@ -268,7 +270,7 @@ nav {
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
+        width: $max-width - ($max-width * .1); /* 1140px - 10% = 1026px for margins */
         margin: 0 auto;
     }
 }
